@@ -1,0 +1,6 @@
+001| ..inizio.. prova_metodoUP.rb - 12 maggio 2017: prova metodo UP (Rails4, p.107) eseguito il 2017-05-14 10:04:35
+002| Risultati start#
+003| Encoding in uso: UTF-8
+004| Ruby version: 2.2.6, PATCH LEVEL: 396
+005| prova - 123
+006| Risultati end#

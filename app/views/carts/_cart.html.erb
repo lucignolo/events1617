@@ -1,0 +1,11 @@
+<h2>Il tuo carrello (da p.122):</h2>
+<table>
+   <%= render(cart.line_items) %>
+
+   <tr class="total_line">
+     <td colspan="2">Totale</td>
+     <td class="total_cell"><%= number_to_currency(cart.total_price) %></td>
+   </tr>
+</table>
+
+<%= button_to 'Svuota il carrello', @cart, method: :delete, data: { confirm: 'Are You sure?'} %>

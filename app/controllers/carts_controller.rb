@@ -1,5 +1,6 @@
 class CartsController < ApplicationController
   before_action :set_cart, only: [:show, :edit, :update, :destroy]
+  rescue_from ActiveRecord::RecordNotFound, with: :invalid_cart
 
   # GET /carts
   # GET /carts.json
@@ -54,9 +55,11 @@ class CartsController < ApplicationController
   # DELETE /carts/1
   # DELETE /carts/1.json
   def destroy
-    @cart.destroy
+    @cart.destroy if @cart.id == session[:cart_id]  # corretta il 14/05/2017 (p.115)
+    session[:cart_id] = nil  # aggiunta il 14/05/2017 (p.115)
     respond_to do |format|
-      format.html { redirect_to carts_url, notice: 'Cart was successfully destroyed.' }
+      format.html { redirect_to store_url, 
+        notice: 'Il tuo carrello in questo momento est vuoto.' }
       format.json { head :no_content }
     end
   end
@@ -71,4 +74,10 @@ class CartsController < ApplicationController
     def cart_params
       params.fetch(:cart, {})
     end
+
+    # per gestire gli errori (rails4, p.111)
+    def invalid_cart
+      logger.error "Tentativo di accedere a un carrello non valido #{params[:id]}"
+      redirect_to store_url, notice: "Invalid carttt"
+    end # def invalid_cart
 end
