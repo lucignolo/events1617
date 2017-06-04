@@ -1,6 +1,12 @@
-001| ..inizio.. prova_metodoUP.rb - 12 maggio 2017: prova metodo UP (Rails4, p.107) eseguito il 2017-05-14 10:04:35
+001| ..inizio.. ugoRUNNuoviEditori00.rb - 2016: da lpublishers a publishers eseguito il 2017-06-03 19:41:38
 002| Risultati start#
-003| Encoding in uso: UTF-8
-004| Ruby version: 2.2.6, PATCH LEVEL: 396
-005| prova - 123
-006| Risultati end#
+003| Encoding in uso: UTF-8; prova: èòìàéù
+004| Esegue solo prima parte.
+005| Totale Elementi in tabella lpublishers: 982.
+006| lung Nome=0 in iii: 167, lpo.ID_EDITORE: 196
+007| lung Nome=0 in iii: 168, lpo.ID_EDITORE: 197
+008| lung Nome=0 in iii: 963, lpo.ID_EDITORE: 1003
+009| Massimo valore per ID_EDITORE: 1022
+010| Numero di valori NULLI in mioh: 0.
+011| Numero di valori NON NULLI in mioh: 979.
+012| in mioh, chiave Minima: 1; chiave Max: 1022.

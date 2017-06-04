@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170512150627) do
+ActiveRecord::Schema.define(version: 20170525170008) do
+
+  create_table "EditoriCsvUtf8(virgola)", id: false, force: :cascade do |t|
+    t. "id"
+    t. "ID_EDITORE"
+    t. "Nome"
+    t. "created_at"
+    t. "updated_at"
+  end
 
   create_table "carts", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -25,6 +33,13 @@ ActiveRecord::Schema.define(version: 20170512150627) do
     t.integer  "quantity",   default: 1
     t.index ["cart_id"], name: "index_line_items_on_cart_id"
     t.index ["product_id"], name: "index_line_items_on_product_id"
+  end
+
+  create_table "lpublishers", force: :cascade do |t|
+    t.integer  "ID_EDITORE"
+    t.string   "Nome"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "products", force: :cascade do |t|
