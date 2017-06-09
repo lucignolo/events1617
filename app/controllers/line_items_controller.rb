@@ -34,7 +34,8 @@ class LineItemsController < ApplicationController
         #format.html { redirect_to @line_item.cart }  # superata con il carrello sulla sinistra
         format.html { redirect_to store_url } # ritorna alla store index
 
-        format.js # aggiunta per il passo 2 della modifica ajax (richiede un create.js.erb)
+        format.js { @current_item = @line_item } # aggiunta per il passo 2 della modifica ajax (richiede un create.js.erb)
+                                                 # poi modificata per lampeggiamento (p.130)
 
         format.json { render :show, status: :created, location: @line_item }
       else
