@@ -1,12 +1,9 @@
-001| ..inizio.. ugoRUNNuoviEditori00.rb - 2016: da lpublishers a publishers eseguito il 2017-06-03 19:41:38
+001| ..inizio.. ugoRUNNuoviEditori01.rb - 2016: confronto lpublishers/publishers -2017 eseguito il 2017-06-21 08:49:33
 002| Risultati start#
 003| Encoding in uso: UTF-8; prova: èòìàéù
-004| Esegue solo prima parte.
-005| Totale Elementi in tabella lpublishers: 982.
-006| lung Nome=0 in iii: 167, lpo.ID_EDITORE: 196
-007| lung Nome=0 in iii: 168, lpo.ID_EDITORE: 197
-008| lung Nome=0 in iii: 963, lpo.ID_EDITORE: 1003
-009| Massimo valore per ID_EDITORE: 1022
-010| Numero di valori NULLI in mioh: 0.
-011| Numero di valori NON NULLI in mioh: 979.
-012| in mioh, chiave Minima: 1; chiave Max: 1022.
+004| ===Inizio STEP1: da lpublishers a publishers ===
+005| === records in lpublishers: 982
+006| ===Fine STEP1: da lpublishers a publishers =====
+007| ===Inizio STEP2: verifica bidoni in publishers ===
+008| ===Fine STEP2: verifica bidoni in publishers =====
+009| Risultati end#

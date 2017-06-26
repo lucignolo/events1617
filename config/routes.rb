@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'static_pages/inventario'
+
+  get 'static_pages/store'
+
   resources :publishers
   resources :lpublishers
   resources :line_items

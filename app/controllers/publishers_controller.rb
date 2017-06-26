@@ -1,13 +1,21 @@
 class PublishersController < ApplicationController
 
-  layout 'nuovoindice0'
+  # layout 'nuovoindice0'   serviva per provare animazioni esterne in jquery
 
   before_action :set_publisher, only: [:show, :edit, :update, :destroy]
 
   # GET /publishers
   # GET /publishers.json
   def index
-    @publishers = Publisher.all
+
+
+    if @tipo == "nonbidoni"
+      @publishers = Publisher.nonbidoni
+    else
+      @publishers = Publisher.bidoni
+    end    
+
+    
   end
 
   # GET /publishers/1
