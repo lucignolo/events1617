@@ -13,7 +13,31 @@ class PublishersController < ApplicationController
       @publishers = Publisher.nonbidoni
     else
       @publishers = Publisher.bidoni
-    end    
+    end  
+
+    mioHash = analizzaScope(params[:scope], /^(likeat)(.+)$/)
+    mioNome = mioHash[:nome]
+    mioPara = mioHash[:para] 
+    #
+    case mioNome
+     when "nonbidoni"
+       @publishers = Publisher.nonbidoni
+     when "bidoni"
+       @publishers = Publisher.bidoni
+
+     when "likeat"
+       mioPara2 = "%"+mioPara+"%"
+       @publishers = Publisher.likeat("#{mioPara2}").order(:nome).paginate(page: params[:page], per_page: 5)
+           #@products = Product.all.paginate(page: params[:page], per_page: 5)
+       # prova 02/07 da StackOverfkow
+       #@total_items = [@publishers].compact.flatten
+       #Kaminari.paginate_array(@total_items).page(params[:page]).per(10)
+
+       #@events = Event.likeat(mioPara'%kata%')   
+    else
+       @publishers = Publisher.all.order(:nome).page params[:page]
+       #@events = Event.upcoming.page(params[:page]) 
+    end     
 
     
   end
@@ -82,4 +106,13 @@ class PublishersController < ApplicationController
     def publisher_params
       params.require(:publisher).permit(:nome, :vecchioid)
     end
+
+    def analizzaScope(stringa, pattern)
+     match = pattern.match(stringa)
+     if match
+       mioh = { nome: match[1], para: match[2] }
+     else
+       mioh = { nome: stringa, para: nil }
+     end
+  end
 end

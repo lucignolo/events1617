@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170604042615) do
+ActiveRecord::Schema.define(version: 20170627141045) do
 
   create_table "EditoriCsvUtf8(virgola)", id: false, force: :cascade do |t|
     t. "id"
@@ -54,6 +54,13 @@ ActiveRecord::Schema.define(version: 20170604042615) do
   create_table "publishers", force: :cascade do |t|
     t.string   "nome"
     t.integer  "vecchioid"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "searches", force: :cascade do |t|
+    t.string   "termine"
+    t.string   "tabella"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

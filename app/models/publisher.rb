@@ -11,7 +11,8 @@ class Publisher < ApplicationRecord
 	scope :gruppiVECCHIOID, -> { group("vecchioid").count }
 	# nuovi scope 2017
 	scope :nonbidoni, -> { where('nome not LIKE "%nono %"')}
-
+# 26-28 giugno 2017 - Samone	
+    scope :likeat, ->(parametro='%at%') { where("nome LIKE ?",parametro)}
 
 	def self.creaSalvaNuovoRecord(numero, salvataggio)
 		# metodo della classe Publisher - 17/06/2017

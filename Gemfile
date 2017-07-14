@@ -51,5 +51,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # aggiunta in Windows per server
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
-# per scaricare la gem 'kaminari' per la pagination 18 agosto 2015
+# per scaricare la gem 'kaminari' per la pagination 01/07/2016
 gem 'kaminari'  

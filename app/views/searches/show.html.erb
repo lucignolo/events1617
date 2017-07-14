@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>termine:</strong>
+  <%= @search.termine %>
+</p>
+<p>
+  <strong>tabella:</strong>
+  <%= @search.tabella %>
+</p>
+
+<% content_for(:title, @search.termine) %>
+<article id="search" class="search">
+  <header>
+    <h3><%= @search.termine %></h3>
+    <h3><%= @search.tabella %></h3>
+  </header>
+<p><%= "per eseguire la ricerca useremo la strimga seguente: #{@ricerca}" %> </p>
+Esito di exec_link_for: <%= exec_link_for(@search.termine, @ricerca) %>
+
+<%= link_to 'Edit', edit_search_path(@search) %> |
+<%= link_to 'Back', searches_path %>
