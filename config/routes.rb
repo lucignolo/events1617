@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :books
+  resources :orders
+  resources :lbooks
   resources :searches
   get 'static_pages/inventario'
 

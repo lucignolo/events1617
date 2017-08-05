@@ -1,0 +1,1 @@
+json.extract! @book, :id, :vecchioid, :titolo, :prezzoeurodec, :edizione, :isbn, :copie, :deposito, :publisher_id, :idtipoopera, :annoedizione, :note, :idaliquotaiva, :url2, :annomodifica, :created_at, :updated_at

@@ -1,0 +1,92 @@
+<%= form_for(lbook) do |f| %>
+  <% if lbook.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(lbook.errors.count, "error") %> prohibited this lbook from being saved:</h2>
+
+      <ul>
+      <% lbook.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :c01_vecchioid %>
+    <%= f.number_field :c01_vecchioid %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c02_titolo %>
+    <%= f.text_field :c02_titolo %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c03_prezzoeurodec %>
+    <%= f.text_field :c03_prezzoeurodec %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c04_EDIZIONE %>
+    <%= f.text_field :c04_EDIZIONE %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c05_IDDISTRIBUTORE %>
+    <%= f.number_field :c05_IDDISTRIBUTORE %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c06_IDSERIE %>
+    <%= f.number_field :c06_IDSERIE %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c07_ISBN %>
+    <%= f.text_field :c07_ISBN %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c08_copie %>
+    <%= f.number_field :c08_copie %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c09_deposito %>
+    <%= f.check_box :c09_deposito %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c10_publisher_id %>
+    <%= f.number_field :c10_publisher_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c11_IDTIPOOPERA %>
+    <%= f.number_field :c11_IDTIPOOPERA %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c12_ANNOEDIZIONE %>
+    <%= f.number_field :c12_ANNOEDIZIONE %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c13_note %>
+    <%= f.text_field :c13_note %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c14_idaliquotaiva %>
+    <%= f.number_field :c14_idaliquotaiva %>
+  </div>
+
+  <div class="field">
+    <%= f.label :c15_url2 %>
+    <%= f.text_field :c15_url2 %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,5 +1,5 @@
 class Publisher < ApplicationRecord
-
+has_many :books
 
 # giugno 2017: segue il gruppo di definizioni di scopes usati lo scorso anno
 # 2016 per inventario 2015: il seguente scope (ambito) bidoni serve per contare i bidoni

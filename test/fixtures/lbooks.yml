@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  c01_vecchioid: 1
+  c02_titolo: MyString
+  c03_prezzoeurodec: MyString
+  c04_EDIZIONE: MyString
+  c05_IDDISTRIBUTORE: 1
+  c06_IDSERIE: 1
+  c07_ISBN: MyString
+  c08_copie: 1
+  c09_deposito: false
+  c10_publisher_id: 1
+  c11_IDTIPOOPERA: 1
+  c12_ANNOEDIZIONE: 1
+  c13_note: MyString
+  c14_idaliquotaiva: 1
+  c15_url2: MyString
+
+two:
+  c01_vecchioid: 1
+  c02_titolo: MyString
+  c03_prezzoeurodec: MyString
+  c04_EDIZIONE: MyString
+  c05_IDDISTRIBUTORE: 1
+  c06_IDSERIE: 1
+  c07_ISBN: MyString
+  c08_copie: 1
+  c09_deposito: false
+  c10_publisher_id: 1
+  c11_IDTIPOOPERA: 1
+  c12_ANNOEDIZIONE: 1
+  c13_note: MyString
+  c14_idaliquotaiva: 1
+  c15_url2: MyString

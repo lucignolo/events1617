@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Lbooks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>C01 vecchioid</th>
+      <th>C02 titolo</th>
+      <th>C03 prezzoeurodec</th>
+      <th>C04 edizione</th>
+      <th>C05 iddistributore</th>
+      <th>C06 idserie</th>
+      <th>C07 isbn</th>
+      <th>C08 copie</th>
+      <th>C09 deposito</th>
+      <th>C10 publisher</th>
+      <th>C11 idtipoopera</th>
+      <th>C12 annoedizione</th>
+      <th>C13 note</th>
+      <th>C14 idaliquotaiva</th>
+      <th>C15 url2</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @lbooks.each do |lbook| %>
+      <tr>
+        <td><%= lbook.c01_vecchioid %></td>
+        <td><%= lbook.c02_titolo %></td>
+        <td><%= lbook.c03_prezzoeurodec %></td>
+        <td><%= lbook.c04_EDIZIONE %></td>
+        <td><%= lbook.c05_IDDISTRIBUTORE %></td>
+        <td><%= lbook.c06_IDSERIE %></td>
+        <td><%= lbook.c07_ISBN %></td>
+        <td><%= lbook.c08_copie %></td>
+        <td><%= lbook.c09_deposito %></td>
+        <td><%= lbook.c10_publisher_id %></td>
+        <td><%= lbook.c11_IDTIPOOPERA %></td>
+        <td><%= lbook.c12_ANNOEDIZIONE %></td>
+        <td><%= lbook.c13_note %></td>
+        <td><%= lbook.c14_idaliquotaiva %></td>
+        <td><%= lbook.c15_url2 %></td>
+        <td><%= link_to 'Show', lbook %></td>
+        <td><%= link_to 'Edit', edit_lbook_path(lbook) %></td>
+        <td><%= link_to 'Destroy', lbook, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Lbook', new_lbook_path %>

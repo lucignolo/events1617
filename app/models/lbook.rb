@@ -1,0 +1,2 @@
+class Lbook < ApplicationRecord
+end

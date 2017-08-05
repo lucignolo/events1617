@@ -1,0 +1,53 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Books</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Vecchioid</th>
+      <th>Titolo</th>
+      <th>Prezzoeurodec</th>
+      <th>Edizione</th>
+      <th>Isbn</th>
+      <th>Copie</th>
+      <th>Deposito</th>
+      <th>Publisher</th>
+      <th>Idtipoopera</th>
+      <th>Annoedizione</th>
+      <th>Note</th>
+      <th>Idaliquotaiva</th>
+      <th>Url2</th>
+      <th>Annomodifica</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @books.each do |book| %>
+      <tr>
+        <td><%= book.vecchioid %></td>
+        <td><%= book.titolo %></td>
+        <td><%= book.prezzoeurodec %></td>
+        <td><%= book.edizione %></td>
+        <td><%= book.isbn %></td>
+        <td><%= book.copie %></td>
+        <td><%= book.deposito %></td>
+        <td><%= book.publisher_id %></td>
+        <td><%= book.idtipoopera %></td>
+        <td><%= book.annoedizione %></td>
+        <td><%= book.note %></td>
+        <td><%= book.idaliquotaiva %></td>
+        <td><%= book.url2 %></td>
+        <td><%= book.annomodifica %></td>
+        <td><%= link_to 'Show', book %></td>
+        <td><%= link_to 'Edit', edit_book_path(book) %></td>
+        <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Book', new_book_path %>

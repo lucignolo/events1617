@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vecchioid: 1
+  titolo: MyString
+  prezzoeurodec: 9.99
+  edizione: MyString
+  isbn: MyString
+  copie: 1
+  deposito: false
+  publisher_id: 1
+  idtipoopera: 1
+  annoedizione: 1
+  note: MyString
+  idaliquotaiva: 1
+  url2: MyString
+  annomodifica: 1
+
+two:
+  vecchioid: 1
+  titolo: MyString
+  prezzoeurodec: 9.99
+  edizione: MyString
+  isbn: MyString
+  copie: 1
+  deposito: false
+  publisher_id: 1
+  idtipoopera: 1
+  annoedizione: 1
+  note: MyString
+  idaliquotaiva: 1
+  url2: MyString
+  annomodifica: 1

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Lbooks</h1>
+
+<%= will_paginate @lbooks %>
+
+<table style="width:500px;">
+  <thead>
+    <tr>
+      <th>ID
+      <th style="text-align:right;">C01 vecchioid</th>
+      <th style="text-align:right;">C02 titolo</th>      
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @lbooks.each do |lbook| %>
+      <tr>
+        <td><%= lbook.id %>
+        <td style="text-align:right;"><%= lbook.c01_vecchioid %></td>
+        <td style="text-align:right;"><%= lbook.c02_titolo %></td>        
+        <td><%= link_to 'Show', lbook %></td>
+        <td><%= link_to 'Edit', edit_lbook_path(lbook) %></td>
+        <td><%= link_to 'Destroy', lbook, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+<br>
+
+<%= link_to 'New Lbook', new_lbook_path %>

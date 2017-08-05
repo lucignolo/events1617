@@ -1,0 +1,87 @@
+<%= form_for(book) do |f| %>
+  <% if book.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(book.errors.count, "error") %> prohibited this book from being saved:</h2>
+
+      <ul>
+      <% book.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :vecchioid %>
+    <%= f.number_field :vecchioid %>
+  </div>
+
+  <div class="field">
+    <%= f.label :titolo %>
+    <%= f.text_field :titolo %>
+  </div>
+
+  <div class="field">
+    <%= f.label :prezzoeurodec %>
+    <%= f.text_field :prezzoeurodec %>
+  </div>
+
+  <div class="field">
+    <%= f.label :edizione %>
+    <%= f.text_field :edizione %>
+  </div>
+
+  <div class="field">
+    <%= f.label :isbn %>
+    <%= f.text_field :isbn %>
+  </div>
+
+  <div class="field">
+    <%= f.label :copie %>
+    <%= f.number_field :copie %>
+  </div>
+
+  <div class="field">
+    <%= f.label :deposito %>
+    <%= f.check_box :deposito %>
+  </div>
+
+  <div class="field">
+    <%= f.label :publisher_id %>
+    <%= f.number_field :publisher_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :idtipoopera %>
+    <%= f.number_field :idtipoopera %>
+  </div>
+
+  <div class="field">
+    <%= f.label :annoedizione %>
+    <%= f.number_field :annoedizione %>
+  </div>
+
+  <div class="field">
+    <%= f.label :note %>
+    <%= f.text_field :note %>
+  </div>
+
+  <div class="field">
+    <%= f.label :idaliquotaiva %>
+    <%= f.number_field :idaliquotaiva %>
+  </div>
+
+  <div class="field">
+    <%= f.label :url2 %>
+    <%= f.text_field :url2 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :annomodifica %>
+    <%= f.number_field :annomodifica %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
