@@ -12,14 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20170804094434) do
 
-  create_table "EditoriCsvUtf8(virgola)", id: false, force: :cascade do |t|
-    t. "id"
-    t. "ID_EDITORE"
-    t. "Nome"
-    t. "created_at"
-    t. "updated_at"
-  end
-
   create_table "books", force: :cascade do |t|
     t.integer  "vecchioid"
     t.string   "titolo"

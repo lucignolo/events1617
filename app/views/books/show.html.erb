@@ -70,5 +70,13 @@
   <%= @book.annomodifica %>
 </p>
 
+<% if @book.estraiAnnoDaUrl2(@book.url2)[:errore] %>
+<% else %>
+<p>
+  <strong>Annomodifica con nuovo metodo:</strong>
+  <%= @book.estraiAnnoDaUrl2(@book.url2)[:valore] %>
+</p>
+<% end %>
+
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>
