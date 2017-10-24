@@ -1,6 +1,8 @@
 class Publisher < ApplicationRecord
 has_many :books
-
+# settembre 2017: sistemazione per kaminari pagination
+  	paginates_per 10
+  	max_paginates_per 20	
 # giugno 2017: segue il gruppo di definizioni di scopes usati lo scorso anno
 # 2016 per inventario 2015: il seguente scope (ambito) bidoni serve per contare i bidoni
 	scope :tuttibase, -> { select("id, vecchioid, nome") }

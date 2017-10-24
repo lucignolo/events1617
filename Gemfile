@@ -8,8 +8,8 @@ gem 'mini_magick',             '4.5.1'
 gem 'fog',                     '1.38.0'
 ##gem 'will_paginate',           '3.1.0'
 ## Gemfile for Rails 3+, Sinatra, or Merb
-gem 'will_paginate', '~> 3.1.1'
-gem 'bootstrap-will_paginate', '0.0.10'
+#gem 'will_paginate', '~> 3.1.1'
+#gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bootstrap-sass',          '3.3.6'
 gem 'puma',                    '3.4.0'
 gem 'sass-rails',              '5.0.6'
@@ -36,11 +36,19 @@ group :development do
   gem 'spring-watcher-listen', '2.0.0'
 end
 
+#group :test do: il 21/09/2017 sostituisco questo group con il successivo
+#  gem 'rails-controller-testing', '0.1.1'
+#  gem 'minitest-reporters',       '1.1.9'
+#  gem 'guard',                    '2.13.0'
+#  gem 'guard-minitest',           '2.4.4'
+#end
+
 group :test do
   gem 'rails-controller-testing', '0.1.1'
   gem 'minitest-reporters',       '1.1.9'
   gem 'guard',                    '2.13.0'
   gem 'guard-minitest',           '2.4.4'
+  gem "minitest",                 '5.10.1'
 end
 
 group :production do

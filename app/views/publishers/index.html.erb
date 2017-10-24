@@ -5,11 +5,16 @@
 
 <h1>Publishers</h1>
 
+<%= page_entries_info @publishers, entry_name: 'item' %>
+
+
 <% @publishers.each do |lo_item| %>
    <p> <%= lo_item.nome %>
 <% end %>
+<br>
+<%= link_to_prev_page @publishers, 'Pagina precedente  ' %>
+<%= link_to_next_page @publishers, '  Pagina successiva' %>
 
-<%= will_paginate(@publishers) %>
 <br>
 
 <%= link_to 'New Publisher', new_publisher_path %>

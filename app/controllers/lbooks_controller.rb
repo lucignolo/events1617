@@ -5,7 +5,8 @@ class LbooksController < ApplicationController
   # GET /lbooks.json
   def index
     #@lbooks = Lbook.where('id > 10').limit(20).order('id asc').paginate(page: params[:page], per_page: 10)
-    @lbooks = Lbook.limit(50).offset(10).paginate(page: params[:page], per_page: 10)
+    @lbooks = Lbook.limit(50).offset(10)
+    #.paginate(page: params[:page], per_page: 10)
     #@lbooks = Lbook.find_by_sql("select id, c01_vecchioid, c02_titolo FROM lbooks WHERE id < '200' ").order(:id).paginate(page: params[:page], per_page: 10)
   end
 

@@ -74,4 +74,54 @@ belongs_to :publisher
         end
       end
     end #aggiungi
+
+    ## prova ad accedere alla classe PdfStuff che sta in lib
+    def accediLibreria
+        oggetto=PdfStuff::Receipt.new()
+        oggetto.hello
+    end
+
+    def self.accediLibreriadiClasse()
+      a ="sono un metodo di classe! e restituisco il risultato di un altro metodo di clssse"
+      a += "#{PdfStuff::Receipt.metododiclasse}"
+    end #self.accediLibreriadiClasse
+
+    require "provaNOCLASSE/provaUgo0"
+    def self.provaprovaUgo0
+      provaUgo0
+    end #def self.provaprovaUgo0
+
+    require "provaNOCLASSE/daIDaIVA"
+    def self.chiamadaIDaIVA(para)
+      daIDaIVA(para)
+    end #def self.chiamadaIDaIVA(para)
+
+
+  #scope :ammessiInventario2016, -> { where('titolo NOT LIKE "%titolobidone" AND copie > 0')}
+  #scope :ammessiInventario2016, -> { where(" titolo NOT LIKE ? AND copie > ? AND deposito = ? ", 
+  #                                           "%titolobidone", 0, false)}
+  #scope :ammessiInventario2016, -> { where(" titolo NOT LIKE ? AND copie > ? AND deposito = ? AND (prezzoeurodec >= ? AND prezzoeurodec <= ?) ", 
+  #
+  scope :ammessiInventario2016, -> { 
+  	where(" titolo NOT LIKE ? AND copie > ? AND deposito = ? AND (prezzoeurodec >= ? AND prezzoeurodec <= ?) AND (annomodifica >= ?) ", 
+                                             "%titolobidone", 0, false, 0, 500, 2000)}  
+
+  def vedi
+  	x =     " TIT:  #{self.titolo} --"
+  	x = x + " COP:  #{self.copie}  --"
+  	x = x + " DEP:  #{self.deposito}  --"
+  	x = x + " PRE: #{self.prezzoeurodec}  -- "
+  	x = x + " MOD: #{self.annomodifica}  --"
+  	x
+  end #vedi 
+
+  def asse( tito, copi, depo, prez, modi )
+  	self.titolo = tito
+  	self.copie = copi
+  	self.deposito = depo
+  	self.prezzoeurodec = prez
+  	self.annomodifica = modi
+  end #asse
+
+
 end

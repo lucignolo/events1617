@@ -15,8 +15,9 @@
     <h3><%= @search.termine %></h3>
     <h3><%= @search.tabella %></h3>
   </header>
-<p><%= "per eseguire la ricerca useremo la strimga seguente: #{@ricerca}" %> </p>
-Esito di exec_link_for: <%= exec_link_for(@search.termine, @ricerca) %>
+<p><%= "per eseguire la ricerca useremo la stringa seguente: #{@ricerca}" %> </p>
+La esecuzione del metodo exec_link_for porta al risultato seguente:<br>
+<%= exec_link_for(@search.termine, @ricerca) %> .<br>
 
 <%= link_to 'Edit', edit_search_path(@search) %> |
 <%= link_to 'Back', searches_path %>

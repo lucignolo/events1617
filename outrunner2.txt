@@ -1,74 +1,220 @@
-001| ..inizio.. ugoRUNRicalcolaANNOMODIFICA.rb - 08/09/2017: in books, ricalcola annomodifica per AI16 eseguito il 2017-09-08 12:47:09
+001| ..inizio.. ugoPROVEClassi91.rb - 26ott 15 - (7 ottobre 2017-provazero) eseguito il 2017-10-07 19:22:34
 002| Risultati start#
 003| Encoding in uso: UTF-8
-004| Ruby version: 2.2.6, PATCH LEVEL: 396
-005| {-1=>3062, 2002=>22, 2003=>314, 2004=>357, 2005=>307, 2006=>510, 
-   | 2007=>556, 2008=>621, 2009=>453, 2010=>801, 2011=>980, 2012=>1091
-   | , 2013=>1040, 2014=>1080, 2015=>1504}
-006| gruppo con k(valore di annomodifica)=-1 composto da 2970 books no
-   | n bidoni.
-007| gruppo con kiave -1, n.ro sostituzioni: 2970.
-008| risult intermedi dopo gruppo con key= -1= 2970
-009| gruppo con k(valore di annomodifica)=2002 composto da 22 books no
-   | n bidoni.
-010| gruppo con kiave 2002, n.ro sostituzioni: 0.
-011| risult intermedi dopo gruppo con key= 2002= 2970
-012| gruppo con k(valore di annomodifica)=2003 composto da 314 books n
-   | on bidoni.
-013| gruppo con kiave 2003, n.ro sostituzioni: 0.
-014| risult intermedi dopo gruppo con key= 2003= 2970
-015| gruppo con k(valore di annomodifica)=2004 composto da 357 books n
-   | on bidoni.
-016| gruppo con kiave 2004, n.ro sostituzioni: 0.
-017| risult intermedi dopo gruppo con key= 2004= 2970
-018| gruppo con k(valore di annomodifica)=2005 composto da 307 books n
-   | on bidoni.
-019| gruppo con kiave 2005, n.ro sostituzioni: 0.
-020| risult intermedi dopo gruppo con key= 2005= 2970
-021| gruppo con k(valore di annomodifica)=2006 composto da 510 books n
-   | on bidoni.
-022| gruppo con kiave 2006, n.ro sostituzioni: 0.
-023| risult intermedi dopo gruppo con key= 2006= 2970
-024| gruppo con k(valore di annomodifica)=2007 composto da 556 books n
-   | on bidoni.
-025| gruppo con kiave 2007, n.ro sostituzioni: 0.
-026| risult intermedi dopo gruppo con key= 2007= 2970
-027| gruppo con k(valore di annomodifica)=2008 composto da 621 books n
-   | on bidoni.
-028| gruppo con kiave 2008, n.ro sostituzioni: 0.
-029| risult intermedi dopo gruppo con key= 2008= 2970
-030| gruppo con k(valore di annomodifica)=2009 composto da 453 books n
-   | on bidoni.
-031| gruppo con kiave 2009, n.ro sostituzioni: 0.
-032| risult intermedi dopo gruppo con key= 2009= 2970
-033| gruppo con k(valore di annomodifica)=2010 composto da 801 books n
-   | on bidoni.
-034| gruppo con kiave 2010, n.ro sostituzioni: 0.
-035| risult intermedi dopo gruppo con key= 2010= 2970
-036| gruppo con k(valore di annomodifica)=2011 composto da 980 books n
-   | on bidoni.
-037| gruppo con kiave 2011, n.ro sostituzioni: 0.
-038| risult intermedi dopo gruppo con key= 2011= 2970
-039| gruppo con k(valore di annomodifica)=2012 composto da 1091 books 
-   | non bidoni.
-040| gruppo con kiave 2012, n.ro sostituzioni: 0.
-041| risult intermedi dopo gruppo con key= 2012= 2970
-042| gruppo con k(valore di annomodifica)=2013 composto da 1040 books 
-   | non bidoni.
-043| gruppo con kiave 2013, n.ro sostituzioni: 0.
-044| risult intermedi dopo gruppo con key= 2013= 2970
-045| gruppo con k(valore di annomodifica)=2014 composto da 1080 books 
-   | non bidoni.
-046| gruppo con kiave 2014, n.ro sostituzioni: 0.
-047| risult intermedi dopo gruppo con key= 2014= 2970
-048| gruppo con k(valore di annomodifica)=2015 composto da 1504 books 
-   | non bidoni.
-049| gruppo con kiave 2015, n.ro sostituzioni: 0.
-050| risult intermedi dopo gruppo con key= 2015= 2970
-051| Ecco tutti contenuti finali del nostro hash locale: {:tutti=>1269
-   | 8, :bidoni=>92, :nonbidoni=>12606, :sostituzioni2016=>2970}
-052| RICALCOLO FREQUENZE sulla tabella DOPO LE MODIFICHE:
-053| {-1=>92, 2002=>22, 2003=>314, 2004=>357, 2005=>307, 2006=>510, 20
-   | 07=>556, 2008=>621, 2009=>453, 2010=>801, 2011=>980, 2012=>1091, 
-   | 2013=>1040, 2014=>1080, 2015=>1504, 2016=>2970}
-054| Risultati end#
+004| {:id=>{:type1=>"INTEGER", :type2=>" PRIMARY KEY AUTOINCREMENT NOT
+   |  NULL", :valore=>2341, :patt1=>/(.*)/, :patt2=>/(.*)/, :lambda1=>
+   | nil, :camposeq=>nil, :elabora=>true, :formato=>"%6i"}, :titolo=>{
+   | :type1=>"text", :type2=>"", :valore=>"prova titolo xxx", :patt1=>
+   | /^(.{1,70})/, :patt2=>/(.*)/, :lambda1=>nil, :camposeq=>nil, :ela
+   | bora=>true, :formato=>"%-40.40s"}, :publisher_id=>{:type1=>"integ
+   | er", :type2=>"", :valore=>13, :patt1=>/^(\d{1,3})/, :patt2=>/(.*)
+   | /, :lambda1=>#<Proc:0x6c313e0@C:/MieiProgrammi/MieRicerche501/Mie
+   | RicercheNew/ugolib/creaSuperHash2.rb:50 (lambda)>, :camposeq=>"ID
+   | EDITORE", :elabora=>false, :formato=>"%-20s"}, :vecchioid=>{:type
+   | 1=>"integer", :type2=>"", :valore=>54321, :patt1=>/^(\d{1,5})/, :
+   | patt2=>/(.*)/, :lambda1=>nil, :camposeq=>"ID_UNBI", :elabora=>fal
+   | se, :formato=>"%6i"}, :created_at=>{:type1=>"datetime", :type2=>"
+   |  NOT NULL", :valore=>0.01, :patt1=>/(.*)/, :patt2=>/(.*)/, :lambd
+   | a1=>nil, :camposeq=>nil, :elabora=>false, :formato=>"%-20s"}, :up
+   | dated_at=>{:type1=>"datetime", :type2=>" NOT NULL", :valore=>0.01
+   | , :patt1=>/(.*)/, :patt2=>/(.*)/, :lambda1=>nil, :camposeq=>nil, 
+   | :elabora=>false, :formato=>"%-20s"}, :prezzoeurodec=>{:type1=>"de
+   | cimal", :type2=>"", :valore=>13.45, :patt1=>/^(\d{1,5},\d{0,2})/,
+   |  :patt2=>/(.*)/, :lambda1=>nil, :camposeq=>"PREZZOLIRE", :elabora
+   | =>true, :formato=>"%6.2f"}, :copie=>{:type1=>"integer", :type2=>"
+   | ", :valore=>12, :patt1=>/^(\d{0,3})/, :patt2=>/(.*)/, :lambda1=>n
+   | il, :camposeq=>"COPIE", :elabora=>true, :formato=>"%3i"}, :prezzo
+   | TCI=>{:type1=>"decimal", :type2=>"", :valore=>nil, :patt1=>nil, :
+   | patt2=>nil, :lambda1=>nil, :camposeq=>"---derivato---", :elabora=
+   | >true, :formato=>"%8.2f"}, :prezzoTSI=>{:type1=>"decimal", :type2
+   | =>"", :valore=>nil, :patt1=>nil, :patt2=>nil, :lambda1=>nil, :cam
+   | poseq=>"---derivato---", :elabora=>true, :formato=>"%8.2f"}, :dep
+   | osito=>{:type1=>"boolean", :type2=>"", :valore=>"t", :patt1=>/^(V
+   | ERO)/, :patt2=>/^(FALSO)/, :lambda1=>nil, :camposeq=>"DEPOSITO", 
+   | :elabora=>false, :formato=>"%6i"}, :iva=>{:type1=>"integer", :typ
+   | e2=>"", :valore=>2, :patt1=>/^(\d{0,2})/, :patt2=>/(.*)/, :lambda
+   | 1=>nil, :camposeq=>"IDALIQUOTAIVA", :elabora=>true, :formato=>"%2
+   | i"}, :idaliquotaiva=>{:type1=>"integer", :type2=>"", :valore=>2, 
+   | :patt1=>nil, :patt2=>nil, :lambda1=>nil, :camposeq=>"---", :elabo
+   | ra=>false, :formato=>"%1i"}, :url2=>{:type1=>"varchar", :type2=>"
+   | (255)", :valore=>"<<blabla>><<quiquo>>", :patt1=>/^(.{1,70})/, :p
+   | att2=>/(.*)/, :lambda1=>nil, :camposeq=>nil, :elabora=>false, :fo
+   | rmato=>"%-20s"}, :annoedizione=>{:type1=>"integer", :type2=>"", :
+   | valore=>-1, :patt1=>nil, :patt2=>nil, :camposeq=>nil, :elabora=>f
+   | alse, :formato=>nil}, :annomodifica=>{:type1=>"integer", :type2=>
+   | "", :valore=>-1, :patt1=>nil, :patt2=>nil, :camposeq=>nil, :elabo
+   | ra=>false, :formato=>nil}, :isbn=>{:type1=>"varchar", :type2=>"(2
+   | 55)", :valore=>"1234567890123", :patt1=>nil, :patt2=>nil, :campos
+   | eq=>nil, :elabora=>false, :formato=>nil}, :edimodisb=>{:type1=>"v
+   | archar", :type2=>"(255)", :valore=>"e1987..m2012..1234567890123",
+   |  :patt1=>nil, :patt2=>nil, :camposeq=>"---", :elabora=>true, :for
+   | mato=>"%-27.27s"}}
+005| * -  A & A- con 1 books
+006| * -  A & G- con 0 books
+007| * -  ADV- con 1 books
+008| * -  AIEA- con 1 books
+009| * -  APT Latina- con 0 books
+010| * -  AR.CO- con 1 books
+011| * -  ARA edition- con 0 books
+012| * -  ART&IMAGE- con 0 books
+013| * -  Abao Aqu- con 1 books
+014| * -  Abbeville- con 0 books
+015| * -  Abramo- con 0 books
+016| * -  Acrosslive- con 1 books
+017| * -  Ad est dell' equatore- con 1 books
+018| * -  Adam Editions- con 25 books
+019| * -  Add- con 1 books
+020| * -  Adda- con 4 books
+021| * -  Adelphi Edizioni- con 15 books
+022| * -  Adnkronos Libri- con 2 books
+023| * -  Adriambiente- con 3 books
+024| * -  Aereostella- con 1 books
+025| * -  Affinit- con 0 books
+026| * -  Agriturismo di Romagna- con 0 books
+027| * -  Agriturist- con 1 books
+028| * -  Agriturist ( Roli )- con 0 books
+029| * -  Airplane- con 11 books
+030| * -  Albatros- con 7 books
+031| * -  Albert Gruber- con 2 books
+032| * -  Alberti Libraio Editore- con 1 books
+033| * -  Alberto Maioli Editore- con 1 books
+034| * -  Alberto Perdisa editore- con 4 books
+035| * -  Alcon- con 0 books
+036| * -  Ali&no editrice- con 12 books
+037| * -  Aliberti editore ( Novelli )- con 2 books
+038| * -  Alinea Editrice- con 1 books
+039| * -  Allemandi- con 2 books
+040| * -  Alp- con 0 books
+041| * -  Alpes- con 1 books
+042| * -  Alpha Test- con 11 books
+043| * -  Alpine Studio- con 72 books
+044| * -  Altre Onde- con 7 books
+045| * -  Altreconomia- con 6 books
+046| * -  Altromondo editore- con 1 books
+047| * -  Amplats- con 0 books
+048| * -  Ananke- con 26 books
+049| * -  Anaya Touring Club- con 0 books
+050| * -  Ancora- con 2 books
+051| * -  And [4 Land]- con 1 books
+052| * -  Andrea Pacilli editore- con 3 books
+053| * -  Andrea Parodi Editore- con 11 books
+054| * -  Andromeda- con 1 books
+055| * -  Anniballi- con 2 books
+056| * -  Antersass- con 12 books
+057| * -  Antiga edizioni- con 3 books
+058| * -  Apa- con 0 books
+059| * -  Ape- con 2 books
+060| * -  Aperture- con 0 books
+061| * -  Aracne- con 0 books
+062| * -  Arada- con 1 books
+063| * -  Arca- con 11 books
+064| * -  Arcadia- con 1 books
+065| * -  Arcani Mursia- con 1 books
+066| * -  Archetipolibri- con 1 books
+067| * -  Archinto- con 6 books
+068| * -  Arci Postiglione- con 3 books
+069| * -  Argo- con 5 books
+070| * -  Arianna Editrice- con 2 books
+071| * -  Ariaperta edizioni- con 0 books
+072| * -  Armando Curcio Editore- con 1 books
+073| * -  Armando editore- con 5 books
+074| * -  Arnaldo Forni editore- con 0 books
+075| * -  Ars Book- con 1 books
+076| * -  Arsenale editrice- con 6 books
+077| * -  Art Studio Azinovic- con 0 books
+078| * -  Artestampa- con 6 books
+079| * -  Arti Grafiche S.Rocco- con 2 books
+080| * -  Arti Grafiche Saturnia- con 2 books
+081| * -  Artiere edizionitalia- con 0 books
+082| * -  Artioli editore- con 2 books
+083| * -  Associaz. Italiana Alberghi per la Gioventù- con 0 books
+084| * -  Associazione Orizzonti Verticali- con 1 books
+085| * -  Assouline- con 4 books
+086| * -  Asterios- con 1 books
+087| * -  Astraea- con 7 books
+088| * -  Athena- con 1 books
+089| * -  Athesia- con 108 books
+090| * -  Atlante- con 7 books
+091| * -  Atlantis- con 4 books
+092| * -  Aurum press- con 1 books
+093| * -  Avagliano editore- con 3 books
+094| * -  Avalon Travel- con 1 books
+095| * -  Aviani- con 1 books
+096| * -  Azienda litografica Genovese- con 1 books
+097| * -  Azimut- con 2 books
+098| * -  Azzurra outdoor- con 14 books
+099| * -  BE-MA editrice- con 13 books
+100| * -  BFS- con 1 books
+101| * -  BUR- con 4 books
+102| * -  Bacchilega- con 3 books
+103| * -  Bagnoli Roberto- con 1 books
+104| * -  Baldini & Castoldi- con 16 books
+105| * -  Bandecchi&Vivaldi- con 3 books
+106| * -  Barney- con 1 books
+107| * -  Beat- con 9 books
+108| * -  Bed end Breakfast- con 0 books
+109| * -  Bellavite- con 8 books
+110| * -  Belletti Editore- con 6 books
+111| * -  Berlitz- con 3 books
+112| * -  Besa- con 17 books
+113| * -  Bevivino- con 1 books
+114| * -  Biblioteca dell'Immagine- con 35 books
+115| * -  Biblos- con 2 books
+116| * -  Biglia Blu- con 1 books
+117| * -  Bike Line- con 2 books
+118| * -  Black Comix Press- con 1 books
+119| * -  Blu- con 8 books
+120| * -  Blu Edizioni- con 57 books
+121| * -  Bollati Boringhieri- con 26 books
+122| * -  Bologna 2000- con 0 books
+123| * -  Bompiani- con 6 books
+124| * -  Bonechi- con 16 books
+125| * -  Bononia- con 1 books
+126| * -  Books Intern.- con 7 books
+127| * -  Boreal Mapping- con 4 books
+128| * -  Boroli Editore- con 15 books
+129| * -  Bradt Publications- con 13 books
+130| * -  Bromurodargento- con 1 books
+131| * -  Bruno Mondadori- con 29 books
+132| * -  Bucher Publishing- con 1 books
+133| * -  Buhec Publishing- con 0 books
+134| * -  Bulfinch- con 1 books
+135| * -  Bulgarini- con 1 books
+136| Conteggio tipi:
+137| tipo: intestazioneSup1,  conteggio: 1
+138| tipo: intestazioneSup2,  conteggio: 1
+139| tipo: standard,  conteggio: 1
+140| tipo: intestazioneBlocco,  conteggio: 2
+141| tipo: LibroPrimaRiga,  conteggio: 199
+142| tipo: LibroSecondaRiga,  conteggio: 100
+143| tipo: IntestazioneEditore,  conteggio: 131
+144| tipo: SegnalazioneErrori,  conteggio: 0
+145| tipo: TotaliEditore,  conteggio: 131
+146| tipo: TotaliInventario,  conteggio: 6
+147| tipo: intestazioneBlocco2,  conteggio: 2
+148| tipo: intestazioneBlocco3,  conteggio: 2
+149| Statistiche per id; max:12697, min:574
+150| Statistiche per copie; max:5, min:1
+151| Statistiche per prezzoeurodec; max:37.5, min:4.5
+152| Statistiche per iva; max:4, min:0
+153| Frequenze per copie
+154|  unoOdue, 1..2, frequenza: 194
+155|  treOquattro, 3..4, frequenza: 4
+156|  daCinqueADieci, 5..10, frequenza: 1
+157|  undiciEOltre, 11..100, frequenza: 0
+158|  Totale frequenze per copie: 199
+159| Frequenze per prezzoeurodec
+160|  daZeroanove99, 0.0..9.99, frequenza: 52
+161|  da10a19e99, 10.0..19.99, frequenza: 116
+162|  da20a29e99, 20.0..29.9, frequenza: 23
+163|  da30a50, 30.0..50.0, frequenza: 8
+164|  da51a99e99, 50.01..99.99, frequenza: 0
+165|  da100a500, 100.0..500.0, frequenza: 0
+166|  Totale frequenze per prezzoeurodec: 199
+167| Frequenze per iva
+168|    0  frequenza: 198
+169|    4  frequenza: 1
+170|   20  frequenza: 0
+171|   22  frequenza: 0
+172|  Totale frequenze per iva: 199
+173| Risultati end#

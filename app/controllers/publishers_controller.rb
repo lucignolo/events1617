@@ -27,7 +27,8 @@ class PublishersController < ApplicationController
 
      when "likeat"
        mioPara2 = "%"+mioPara+"%"
-       @publishers = Publisher.likeat("#{mioPara2}").order(:nome).paginate(page: params[:page], per_page: 5)
+       @publishers = Publisher.likeat("#{mioPara2}").page params[:page]
+       #.order(:nome).paginate(page: params[:page], per_page: 5)
            #@products = Product.all.paginate(page: params[:page], per_page: 5)
        # prova 02/07 da StackOverfkow
        #@total_items = [@publishers].compact.flatten
@@ -35,11 +36,8 @@ class PublishersController < ApplicationController
 
        #@events = Event.likeat(mioPara'%kata%')   
     else
-       @publishers = Publisher.all.order(:nome).page params[:page]
-       #@events = Event.upcoming.page(params[:page]) 
-    end     
-
-    
+       @publishers = Publisher.bidoni.order(:nome).page params[:page]
+    end      
   end
 
   # GET /publishers/1

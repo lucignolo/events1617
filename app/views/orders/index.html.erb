@@ -2,6 +2,9 @@
 
 <h1>Orders</h1>
 
+
+<%= page_entries_info @orders, entry_name: 'item' %>
+
 <table>
   <thead>
     <tr>
@@ -28,8 +31,13 @@
     <% end %>
   </tbody>
 </table>
+<br>
+<%= link_to_prev_page @orders, 'Pagina precedente' %>
+<%= link_to_next_page @orders, 'Pagina successiva' %>
+
+<%= rel_next_prev_link_tags @orders %>
 
 <br>
 
 <%= link_to 'New Order', new_order_path %>
-<p><%= paginate @orders %></p>
+

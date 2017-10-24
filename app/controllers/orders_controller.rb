@@ -8,7 +8,9 @@ class OrdersController < ApplicationController
     #@orders = Order.order('name').page(params[:page; per_page: 10])
     # questa ha funzionato: @orders = Order.order('name').paginate(page: params[:page], per_page: 10)
     # questa non limita @orders = Order.order("id").limit(15).paginate(page: params[:page], per_page: 10)
-    @orders = Order.order('name').limit(20).paginate(page: params[:page], per_page: 10) #NON LIMITA
+    #@orders = Order.order('name').limit(20).page(1).per(12)
+    #.paginate(page: params[:page], per_page: 10) #NON LIMITA
+    @orders = Order.order(:name).page params[:page]
 
   end
 
