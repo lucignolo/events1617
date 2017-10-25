@@ -1,7 +1,5 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# events1617
+Situazione di C:\...\MieRicercheNew al 25-10-2017
 
 Things you may want to cover:
 
@@ -22,4 +20,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-Aggiornato al 24 settembre 2017
+Aggiornato al 25/10/2017
