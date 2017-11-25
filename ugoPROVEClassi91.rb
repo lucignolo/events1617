@@ -4,7 +4,10 @@ require "./ugorunnerXUtil (2).rb"
 
 mioScript = "ugoPROVEClassi91.rb"
 #pippo = Konta.new("#{mioScript} - 26ott 14 - modifiche per Iva=22","0")
-pippo = Konta.new("#{mioScript} - 26ott 15 - (7 ottobre 2017-provazero)","0")
+#pippo = Konta.new("#{mioScript} - 26ott 15 - (7 ottobre 2017-provazero)","0")
+#pippo = Konta.new("#{mioScript} - AI2016 - (28/10/17-branch:(continuiamo-classi91)","0")
+pippo = Konta.new("#{mioScript} - AI2016 - (10/11/17-branch:(continuiamo-classi91)","0")
+
 require "./libTitolo0.rb"
 require 'logger'
 
@@ -90,7 +93,7 @@ DATIFORMAT = Hash[:righePerPagina, 75,
                          #si userà la variabile di classe @@pip
     listaOrdinata = Publisher.order('nome')
     #
-    lettere = ('A'..'B')   #('A'..'Z')  modificato in provazero 2017
+    lettere = ('A'..'Z')   #('A'..'Z')  modificato in provazero 2017
     lettere.each{|l| 
       questoBlocco = BloccoEditori.new(listaOrdinata,  l )   #, self, pippo)    
       putc l
@@ -377,11 +380,14 @@ class BloccoEditori < Inventario
       #aggiungi_a_righe(:intestazioneBlocco, riga )
       #
       listaValidi.each{|pub| 
-      gruppoBooks = pub.books
-      quantiBooksLegati = gruppoBooks.size
-      @@pip.scriviRiga("* -  #{pub.nome}- con #{quantiBooksLegati} books") 
-      #
-      faiEditore(pub)  #tratta un singolo editore nel blocco
+        gruppoBooks = pub.books
+        quantiBooksLegati = gruppoBooks.size
+        # aggiunte e modificate righe il 26/10/2017 (continuiamo-classi91)
+        gruppoBooksAmmessi = gruppoBooks.ammessiInventario2016    
+        qBLA = gruppoBooksAmmessi.count
+        @@pip.scriviRiga("* -  #{pub.nome}- con #{quantiBooksLegati} books legati, di cui #{qBLA} ammessi") 
+        #
+        faiEditore(pub)  if qBLA > 0  #tratta un singolo editore nel blocco; 2017 solo se...
       } #listavalidi.each
     end #if listaValidi  
 
@@ -429,6 +435,18 @@ class UnEditore < BloccoEditori
     ngruppoBooks = gruppoBooks.size
     @@totaliInventario[:sommaLibriDisponibiliPerEditori] += nmioGruppoBooks
     @@totaliInventario[:sommaLibriSelezionatiPerEditori] += ngruppoBooks
+    #
+    # modifiche del 31/10/17
+    
+    mioGruppoBooksAmmessi = mioGruppoBooks.ammessiInventario2016
+    nmioGruppoBooksAmmessi = mioGruppoBooksAmmessi.count
+    if ngruppoBooks != nmioGruppoBooksAmmessi  
+      riga  = "---/// #{pubobj.nome}"
+      riga += "---#{nmioGruppoBooks}"
+      riga += "---#{ngruppoBooks}"
+      riga += "---#{nmioGruppoBooksAmmessi}"
+      @@log.debug(riga)
+    end #if ngruppoBooks != nmioGruppoBooksAmmessi
     #
     gruppoBooks.each{|libro|
       #intestazioneLibro = "...creo il libro #{libro.id} su un totale di #{gruppoBooks.size}"
@@ -532,7 +550,7 @@ passa poi quest'ultimo a faiRighe
     quanteRighe = righeTitolo.size
     oggettoFormSprintf = FormSprintf.new()
     oggettoFormSprintf.formDumpa(@@attriBEF[:id][:valore], "righeTitolo.inspect",righeTitolo.inspect)
-    @@log.debug("...#{@vecchioid}, #{@titolo}, #{quanteRighe}...")
+    #@@log.debug("...#{@vecchioid}, #{@titolo}, #{quanteRighe}...")
     # memo in @@attriBEF la prima parte del titolo
     @@attriBEF[:titolo][:valore] = righeTitolo[0]
 
@@ -833,7 +851,7 @@ log = Logger::new(STDOUT)
 log.datetime_format="%H:%M:%S"
 #
 # 2. avviamo l'inventario
-intestazione = "Libreria Accursio - Inventario 2015 - iva dal 20 al 22 - solo2 variazioni"
+intestazione = "Libreria Accursio - Inventario 2016 - nessuna correzione per codici IVA - ugoPROVEClassi91.rb"
 inventario2012 = Inventario.new(intestazione, log, pippo)
 inventario2012.costruisci()
 inventario2012.stampaTotaliInventario

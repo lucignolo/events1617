@@ -1,0 +1,604 @@
+A & G                                 0
+AIEA                                  1
+APT Latina                            0
+ARA edition                           0
+ART&IMAGE                             0
+Abao Aqu                              1
+Abbeville                             0
+Abramo                                0
+Acrosslive                            1
+Add                                   1
+Adda                                  4
+Affinit                               0
+Agriturismo di Romagna                0
+Agriturist                            1
+Agriturist ( Roli )                   0
+Airplane                             11
+Albert Gruber                         2
+Alberto Maioli Editore                1
+Alberto Perdisa editore               4
+Alcon                                 0
+Ali&no editrice                      12
+Aliberti editore ( Novelli )          2
+Alinea Editrice                       1
+Alp                                   0
+Altre Onde                            7
+Altromondo editore                    1
+Amplats                               0
+Ananke                               26
+Anaya Touring Club                    0
+Ancora                                2
+Andromeda                             1
+Antersass                            12
+Antiga edizioni                       3
+Apa                                   0
+Ape                                   2
+Aperture                              0
+Aracne                                0
+Arada                                 1
+Arcadia                               1
+Arcani Mursia                         1
+Archetipolibri                        1
+Archinto                              6
+Arci Postiglione                      3
+Arianna Editrice                      2
+Ariaperta edizioni                    0
+Armando Curcio Editore                1
+Armando editore                       5
+Arnaldo Forni editore                 0
+Ars Book                              1
+Art Studio Azinovic                   0
+Arti Grafiche Saturnia                2
+Artiere edizionitalia                 0
+Artioli editore                       2
+Associaz. Italiana Alberghi per l     0
+Associazione Orizzonti Verticali      1
+Asterios                              1
+Astraea                               7
+Athena                                1
+Atlante                               7
+Aurum press                           1
+Avagliano editore                     3
+Avalon Travel                         1
+Aviani                                1
+Azienda litografica Genovese          1
+Azimut                                2
+BFS                                   1
+BUR                                   4
+Bacchilega                            3
+Bagnoli Roberto                       1
+Bandecchi&Vivaldi                     3
+Barney                                1
+Bed end Breakfast                     0
+Bevivino                              1
+Biblos                                2
+Bike Line                             2
+Black Comix Press                     1
+Blu                                   8
+Bologna 2000                          0
+Bonechi                              16
+Bononia                               1
+Boreal Mapping                        4
+Bromurodargento                       1
+Bucher Publishing                     1
+Buhec Publishing                      0
+Bulfinch                              1
+Bulgarini                             1
+C&B                                   1
+C.D.A.A.                              1
+CAI Bo                                3
+CAI Castione della Presolana          1
+CAI Cava dei Tirreni                  1
+CAI Cavriago                          1
+CAI Firenze                           1
+CAI Mestre                            2
+CAI Mirano                            1
+CAI Mo                                2
+CDA                                   0
+CEST                                  2
+COEL                                  2
+Cacciari                              1
+Cadmo                                 1
+Cadogan                               1
+Cai Arsiero                           1
+Cai Imola                             3
+Calderini Edagricole                  4
+Calosci                               3
+Camera chiara edizioni                3
+Campanotto Editore                    1
+Campomarzo Editrice                   1
+Canova                                1
+Caosfera                              1
+Cappelli                              2
+Cargo                                 1
+Carocci (Ottaviano)                  22
+Carsa                                 3
+Casa delle Guide di Lecco             1
+Casagrande                            1
+Casini                                1
+Castalia                              1
+Catographia                           1
+CdN                                   7
+Celid                                 2
+Cento autori                          2
+Centro del Libro (Bonomo)             0
+Ceul Azul                             2
+Chartwell Books, Inc.                 1
+Chiarelettere                         1
+Ci.Vin                                1
+Cinehollywood                         7
+Cines                                 2
+Cineteca Bologna                      1
+Cisalpino-Goliardica                  1
+Ciscra Edizioni                       4
+Città aperta                          1
+Città del silenzio edizioni           2
+Città del vino                        1
+Clean edizioni                        3
+Cleup                                 1
+Climbing House                        0
+Clueb                                 7
+ClupGuide                            32
+Coedisar                             21
+Collins (Penguin Italia)              1
+Colonnese                             1
+Comune di Sasso Marconi               3
+Comunicarte                           1
+Comunità montana Appennino Bologn     1
+Concabi                               0
+Congedo editore                       0
+Coniglio Editore                      1
+Conte Editore                         1
+Controluce                            6
+Coop tipografica                      1
+Cooper                                1
+Cortina Magazine Edizioni             1
+Costess New Media                     1
+Crociera totale                       3
+Cuec                                  0
+Curcio                                1
+D                                     1
+DATANEWS                              7
+DK (Penguin Italia)                   1
+Dall'Oglio                            1
+Dallanebbiaallenuvole                 0
+Damiani                               1
+Damol Graf                            1
+Dduepunt Edizionii [:duepunt Ediz     0
+De Ferrari                            1
+De Luca editori                       1
+Debatte                               1
+Demetra                              17
+Derive Approdi                        2
+Di Renzo editore                      0
+DiBari - Bartolucci                   1
+Difilm-Istituto Luce                  1
+Documentaria                          0
+Dorà Publisher                        1
+Drioli                                2
+Dumont Monte                          1
+EDB                                   2
+EMI                                  10
+ETS edizioni                          6
+Eccentrico                            1
+Ecoalfabeto                           1
+Ed Itinera                            0
+Ed. A.S.M.V.  CAI Piedimonte M.       1
+Edicart                               1
+Edifir                                1
+Edimond                               7
+Edis                                  1
+Edition Panorama                     16
+Edition Raetia                        2
+Edition de la Martiniere              1
+Editografica                          1
+Editore 603. Modif. questo campo      0
+Editore 833. Modif. questo campo      0
+Editorial Everest                     1
+Editoriale Bologna                    0
+Editoriale Eurocamp                   2
+Editrice A & C Mondovì                0
+Editrice Felsinea                     0
+Editrice Monteverde                   0
+Editrice Reflex                       0
+Editrice la Mandragora                5
+Ediz. Mediterranee                    0
+Edizion                               0
+Edizioni 31                           5
+Edizioni Aniballi                     2
+Edizioni De Luca                      1
+Edizioni EMMEVU                       1
+Edizioni Green Volunteers             8
+Edizioni Grossi                       1
+Edizioni Lativa                       1
+Edizioni Minerva Medica               1
+Edizioni Nautiche Guglielmi           1
+Edizioni Olivares                     1
+Edizioni Pugliesi                     1
+Edizioni SEAM                         1
+Edizioni Selecta                      1
+Edizioni Socrates                     3
+Edizioni Sonda                        1
+Edizioni Taiga                        1
+Edizioni Tracce                       1
+Edizioni del Buon Vivere              0
+Edizioni del Girasole                 2
+Edizioni dell'Ambrosino               1
+Edizioni dell'Asino                   1
+Edizioni della Memoria                0
+Edizioni e/o                         18
+Edizioni enrico Spanu                 2
+Edizioni il Punto d' incontro - G     2
+Edizioni l' età dell' acquario        1
+Edizioni lavoro                      23
+Edizioni microart's                   1
+Edizioni plus                         1
+Edt                                   1
+Edup                                  0
+Effemme Edizioni                      9
+Egea                                  1
+El Pais                               0
+Eleuthera                             2
+ElleEmme                              1
+Endevour                              2
+Equatore                              5
+Eurilink                              1
+Euro camping                          3
+Eurofishmarket                        2
+Europia                               0
+Excelsior 1881                        2
+Exorma                                4
+Explo                                 1
+FK                                    3
+FV                                    0
+Fabrizio Elios Editore                1
+Fandango Libri                        1
+Fanucci editore                       1
+Fenice 2000                           0
+Fenoglio editore                      1
+Fermento                              2
+Ferrari Edizioni                      4
+Ffme                                  0
+Five Continents  (Marinoni)           5
+Fodor's                               0
+Footprint                            79
+Fortuna Augusta                       0
+Fotogramma                            0
+Francesco Brioschi                    3
+Franco Cosimo Panini                  0
+Franco Pace                           4
+Frassinelli                           1
+Fridericiana Editrice Napoli          1
+FuoriThema ( Vallardi )               2
+Fuorionda                             1
+G 01                                  0
+GBS-UBS                               2
+GET                                   0
+GS                                    0
+Gaffi Editore                         3
+Galaad                                1
+Gangemi Editore                       7
+Garage club                           6
+Gemini                                1
+Geo                                   1
+Ghibli                                1
+Gingko                                2
+Giovane Montagna                      3
+Giovanni Renzi                        1
+Giovanni Tranchida Editore            0
+Gorlich                               0
+Gorée                                 1
+Grafema                               1
+Grafiche Artigianelli                 1
+Grafiche ancora                       1
+Grange book                           0
+Grange books                          2
+Graph sas                             1
+Graphot Editrice                      7
+Greco & Greco                         1
+Gruppo A.V.I.S Mineralogia e Spel     1
+Guide delle Guide                     2
+Guido Tommasi editore                 1
+Hangar ediziponi (Iubi)               0
+Hermatena                             2
+Heye                                  0
+Hitstudio editori                     2
+IGM                                   5
+Ibiskos                               1
+Iceberg film                          1
+Idea Books ( De Agostini )            2
+Idea Libri                            9
+Idea Montagna                         2
+Il Bulino                             0
+Il Castello                           1
+Il Cerchio                            1
+Il Filo                               1
+Il Grandevetro                        1
+Il Margine                            1
+Il Melangolo                          1
+Il Palindromo                         2
+Il Ponte                              1
+Il Resto del Carlino                  0
+Il Saggiatore                         4
+Il Sentiero                           6
+Il Sole 24 Ore                       11
+Il Viaggiatore                      117
+Il poligrafo                          0
+Ilex                                  0
+Ilisso                                1
+In Magazine                           1
+Inedita                               0
+Infosasso                             1
+Input edizioni                        1
+Insigma                               1
+Instarlibri                           1
+Intbooksit                            1
+Interlinea edizioni - Guiducci        1
+Intra moenia                          1
+Iperborea                             4
+Irradiazioni                          1
+Itinera                               3
+Jingo Wobbly                          7
+Johan & Levi                          2
+Junior                                3
+K-Flash                               1
+Kalya                                 0
+Kina Italia                           0
+Komshe                                1
+Korsch Verlag                         0
+Kummerly+Frey                         3
+L' Alpe Editrice                      1
+L' Artistica editrice                 1
+L' Ortensia Rossa                     3
+L' autore libri Firenze               1
+L'Eubace                              1
+L'Ippocampo                           6
+L'ancora del Mediterraneo             1
+L'archivolto                          0
+LEM                                   0
+La Biblioteca Junior                  1
+La Caravella                          1
+La Linea                              2
+La Lumaca                             5
+La Serenissima                        2
+La Venta                              3
+La bottega del caffè letterario       5
+La cooperativa di Cortina             1
+La nuova frontiera                    6
+La tartaruga edizioni                 0
+Lamrt                                 1
+Le Balze                              1
+Leading Edizioni                      2
+Leconte                               0
+Leggendaria                           1
+Leonardo.it                           1
+Leonotti Luciano                      0
+Les Voyages du Reve                   2
+Lettera Ventidue                      1
+Lexis                                 1
+Liasis                                0
+Libreria Pilotto Editrice             1
+Libreria editrice Fiorentina          1
+Libri Scheiwiller                     1
+Lightbox                              5
+Lights                                0
+Limina                                2
+Lint                                  4
+Livingston & Co                       1
+Lizard Editori                        4
+Lonely Planet                       410
+Longo editore                         3
+Longo un mondo di specialità          1
+Luca Visentini Editore               10
+Luni editrice (Gasperoni)             1
+MUP                                   5
+Magenes                               0
+Maglio                                1
+Magnanelli                            1
+Magnus (Giovanardi)                   6
+Manifesto libri                       3
+Manni                                 3
+MapStudio                             1
+Marco Bozzetta Editore                1
+Marco Carnovale                       1
+Marcos y Marcos                       1
+Mare di carta                        11
+Maria Margherita Bulgarini            2
+Marsilio                              4
+Martin Sloboda                        2
+Martina                               1
+Martini Multimedia 0166-513640        5
+Matonti editore                       1
+Mc Carta Robertson                    0
+Mc Millan                             0
+Mela edizioni                         1
+Meltemi                               4
+Menabò editore  0543-798463           2
+Meridies                              1
+Mesogea                               8
+Messina editore                       1
+Metrolibri                            0
+Metropoli d' Asia                     1
+Michael Tomkinson Publication         1
+Michele Beltrame Editore ( Cierre     6
+Michelin Ediciones de Viaje           0
+Mimesis                               2
+Minimum fax                           3
+Mobydick                              2
+Modern Publishing                     1
+Modern dizionari                      0
+Moizzi                                2
+Monte Meru editrice                   1
+Monte Universale Parma                2
+Monte sole Bike group                 3
+Moon Publications Inc.                2
+Morganti                              2
+Motta editore                         0
+Mucchi Editore                        1
+Mulatero                             24
+Musumeci                             11
+NGV                                   1
+National Geographic/White Star       68
+Natrix Edition                        0
+NaturArte                             1
+Nelles Bonomo                         0
+Neo                                   2
+Net ( Salvato )                       1
+New Press edizioni                    1
+Nicolodi                              7
+Nitida immagine editrice              4
+Nomos Edition                         0
+North Eastern Divers                  2
+Norton                                1
+Nottetempo                            1
+Nuages ( Marinoni )                   1
+Nuova Editrice Italiana    Arti G     0
+Nuova Ipsa Editore                    1
+Nur                                   1
+Nzvp                                  3
+OGB                                   5
+Oase                                  1
+ObarraO Edizioni                      0
+Obiettivo neve                        1
+Oltre Edizioni                        1
+Orme editore                          1
+Ortensia                              0
+Ossola Climbers                       1
+Out                                   1
+Outdor Editions                       4
+Outdor Editios                        0
+Outline                               1
+PRC Publishing                        1
+Pacini Fazzi                          1
+Pafpo editore                         1
+Pagine Azzurre                        1
+Paolo Emilio Persiani                 2
+Pareti e montagne Edizioni            6
+Peliti associati ( Gasperoni )        1
+Peluso                                2
+Penguin Books                         3
+Pequod                                1
+Persico                               0
+Persico Editore                       5
+Pezzini                               3
+Piero Lacaita Editore                 1
+Pietro Pintore                        3
+Pilotto editore                       1
+Piola Michel                          1
+Pixar ( De Agostini )                 1
+Polaris ( Sondrio )                   2
+Poliedro                              2
+Poligrafici editoriale                2
+Polistampa                            3
+Porzi editoriale                      0
+Postcart                              8
+Pratiche Editrice (Salvato Nicole     3
+Prestel                               1
+Prima Pagina                          1
+Pro Loco Pracchia                     1
+Protagon Editori                      1
+Provincia Bologna                     1
+Publilux                              0
+Publishing [22 publishing]            0
+RAI Eri                               2
+RAM                                   1
+Raro                                  1
+Red edizioni                          1
+Rediscovering the Americas            1
+Remedy                                1
+Renografica                           0
+Rivages                               1
+Rough guide                           0
+Ruggeri                               1
+Rusconi                               1
+Ryuta Naruse                          1
+S & F                                 1
+SD cinematografica                    1
+Salamander                            0
+Salani (Schena)                       6
+Salerno editrice                      2
+Salvietti e Baruffi                   1
+Sandro Teti editore                   2
+Sapignoli                             1
+Saraband                              1
+Sartor edizioni                       1
+Schnell Steiner                       1
+Scripta Manent                        2
+Segnavia                              4
+Selene Edizioni ( Gasperoni)          1
+Sensoinverso                          1
+Settecolori edizioni                  1
+Settegiorni                           1
+Shake Edizioni                        1
+Sidarta                               0
+Sillabe                               1
+Silvana editoriale                    7
+Sirene                                1
+Sironi                                2
+Skira                                11
+Slow Food editore                     2
+Smart comunicazioni                   1
+Socialmente                           2
+Società editrice Romana               1
+Socrates                              1
+Sogno                                 1
+Sometti                               3
+Sonda                                 9
+Sovera                                1
+Spring Edizioni                       1
+Stefano Casanova Editore              1
+Stefano Monetti                       2
+Studio F.M.B. Bologna                 0
+Studio editoriale Gordini             0
+Sugarco edizioni                      2
+Susalibri                             1
+Swan Nuove Edizioni                   1
+TSI                                   1
+Tararà                                8
+Tea                                   0
+Tecnograf                             0
+Temi                                  4
+Terra Antartica Publication           1
+Terra Ferma                           2
+Terra nostra espresso                 0
+Testi nuova serie                     1
+Thames & Hudson                       1
+The British Museum Press              1
+The Mountaineers                      1
+The Pepin Press                       0
+The Times                             2
+Tinarelli Editore                     1
+Tipoarte                              4
+Tirso                                 1
+Todtri                                3
+Tombazzi Giovanni                     1
+Tormena                               1
+Trade & Travel                        0
+Trailblazer                           3
+Tranchida editore                     4
+Transalpina Editrice                  4
+Traven books                          1
+Trenta Editore                        1
+Tresogni                              8
+Turismo natura                        2
+Tushita                               0
+Ulda                                  1
+Ulysse Moizzi  -  Marinoni Mara      84
+Union card                            1
+Ut Orpheus                            1
+Vaccari                               1
+Valentina Trentini editore            4
+Venexia                               1
+Verdone editore                       1
+Vers                                  0
+Vianello                              2
+Vida                                  1
+Viennepierre                          0
+Vivicamper                           17
+WB - Welcome Books                    1
+Whitelight                            0
+Willow Creek Press                    0
+World Images                          1
+Zanfi Editore                         0
+Zelig editore                         0
+Zephiro                               1

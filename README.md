@@ -1,23 +1,6 @@
 # events1617
-Situazione di C:\...\MieRicercheNew al 25-10-2017
+Situazione di C:\...\MieRicercheNew al 25/11/2017
+Concluso l'inventario 2016. iniziati lavori per analisi outrunner2.txt.Già eseguiti i lavori per supplemento Inventario on indici Editori Inclusi ed Esclusi
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-Aggiornato al 25/10/2017
+Aggiornato al 25/11/2017

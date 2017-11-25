@@ -1,0 +1,375 @@
+A & A                              1   1
+ADV                                1   1
+AR.CO                              1   1
+Ad est dell' equatore              1   1
+Adam Editions                     25   7
+Adelphi Edizioni                  15   3
+Adnkronos Libri                    2   2
+Adriambiente                       3   1
+Aereostella                        1   1
+Albatros                           7   1
+Alberti Libraio Editore            1   1
+Allemandi                          2   1
+Alpes                              1   1
+Alpha Test                        11   1
+Alpine Studio                     72  49
+Altreconomia                       6   5
+And [4 Land]                       1   1
+Andrea Pacilli editore             3   2
+Andrea Parodi Editore             11   4
+Anniballi                          2   1
+Arca                              11   1
+Argo                               5   1
+Arsenale editrice                  6   3
+Artestampa                         6   1
+Arti Grafiche S.Rocco              2   1
+Assouline                          4   1
+Athesia                          108  43
+Atlantis                           4   1
+Azzurra outdoor                   14  10
+BE-MA editrice                    13   1
+Baldini & Castoldi                16   7
+Beat                               9   4
+Bellavite                          8   1
+Belletti Editore                   6   2
+Berlitz                            3   3
+Besa                              17   4
+Biblioteca dell'Immagine          35  10
+Biglia Blu                         1   1
+Blu Edizioni                      57   2
+Bollati Boringhieri               26   2
+Bompiani                           6   2
+Books Intern.                      7   1
+Boroli Editore                    15   9
+Bradt Publications                13   2
+Bruno Mondadori                   29   1
+CAI                               36  11
+CDA&Vivalda Editori              226   3
+Caccialupi                         1   1
+Cai Cededolo                       1   1
+Calderini                         18   1
+Candolini Editore                  1   1
+Carlo Delfino Editore              8   4
+Carlo Lorenzini Editore            8   2
+Cartacanta Editrice                2   1
+Carte scoperte                     1   1
+Casa editrice Stefanoni            5   1
+Castelvecchi                       1   1
+Centro Piceno di iniziative pe     1   1
+Centro velico Caprera              1   1
+Cicerone Press                    28   5
+Cierre                           113  21
+Cip edizioni                      12   5
+Class editori                      6   2
+Colla                              1   1
+Color de Soli                      1   1
+Comunità montana                   1   1
+Condé Nast Traveller              10   2
+Contrasto - Rodriguez              6   2
+Convegni editrice                  1   1
+Corbaccio ( Cocchi ) 349 40271   123  88
+Corbo e Fiore editore              2   2
+Cordee                             5   1
+Costa Editore                     31   3
+Curcu & Genovese                  19   1
+D.R.E.AM                           1   1
+Dalai editore                      5   4
+Danilo Zanetti editore             2   1
+Dario De Bastiani Editore          2   2
+Dario Flaccovio editore           14   6
+De Agostini                      171  14
+De Vecchi Editore                 12   2
+Dedalo                             6   2
+Desnivel ediciones                 1   1
+Diabasis                          17   4
+Didier - Richard                   5   5
+Donzelli editore                  33   3
+Dossier                            4   2
+Dumont ( Giachetti )             106  40
+E-Logo                             1   1
+EDT (Rodriguez)                  525 332
+Eco Gruppo Editoriale Armenia      1   1
+Edagricole                         2   1
+Ediciclo                         280 212
+Ediesse                            2   1
+Edimar                             3   2
+Edisud                             8   1
+Edition 2000                       3   2
+Editions Ulysse                    2   1
+Editori Riuniti                    9   2
+Editoria Trento                    1   1
+Editoriale Domus ( Giachetti )   196 119
+Editoriale Giorgio Mondadori       8   2
+Editoriale Olimpia                 3   1
+Editrice Berti                     1   1
+Editrice Compositori              36   7
+Editrice Incontri Nautici         35  17
+Editrice il Prato                  1   1
+Ediz. Mercurio                     2   1
+Edizioni Alphabeta Verlag          1   1
+Edizioni Ambiente                 21   2
+Edizioni Barzanti                  1   1
+Edizioni CieRre                    2   1
+Edizioni Internazionali Beta       1   1
+Edizioni Pontegobbo                2   1
+Edizioni Terra Santa               3   3
+Edizioni Turismo Veneto            5   2
+Edizioni affinità elettive        14   7
+Edizioni dei cammini               8   4
+Edizioni del Capricorno          102  62
+Edizioni il Lupo                   8   2
+Effatà                             4   1
+Effequ                             1   1
+Effigie                            5   1
+Einaudi                           14   3
+Electa                             4   1
+Emons                             11   6
+Epochè                             6   2
+Erga edizioni                     11   2
+Esterbauer                         8   2
+Euroalpi                           1   1
+Euroedit Trento                   13   2
+FBE Edizioni                      89   6
+FMB                              275 130
+Fabbri editori                     6   2
+Fabula (Saredit)                   4   1
+Fazi                               1   1
+Felici Editore                     5   2
+Feltrinelli                      110  60
+Fernandel                          1   1
+Fininternet                        6   5
+Folio Morellini                    9   5
+Footprint W.S.                    17   4
+Fratelli Spada Editori             1   1
+Freytag & Berndt                 223 113
+Fulìe                              1   1
+Fusta                             10   6
+Futuro                             1   1
+Gambero rosso                      1   1
+Garnet Publishing                  1   1
+Garzanti (Guida)                  13   2
+Gaspari                           57   7
+Geo Traveller                      8   1
+Ghedina & Tassotti Editori        13   4
+Giancarlo Grassi                   1   1
+Giorgio Mondadori                 12   3
+Giorgio Pozzi                      1   1
+Giubilei Regnani                   1   1
+Giunti                            58   5
+Grafica & Arte                     8   2
+Gremese editore                    4   1
+Gribaudo                          55  21
+Guanda  (Michele Guida )          44   7
+Guerini e associati (Salvato)      3   1
+Guides Marcus                      1   1
+Hans e Alice Zevi                  2   1
+Harrap                             1   1
+Hoepli                            69  17
+I Libri della Bussola              2   1
+I portici di Bologna              10   1
+IGA                               14   1
+IGC                               47  39
+IGN                               40  26
+ITMB                             174 140
+Iacobelli                         10   1
+Ibis                              31  16
+Idea Montagna Edizioni            73  19
+Idee Verticali                     7   2
+Il Fiorino                        21  10
+Il Frangente                      86   2
+Il Lupo                           10   5
+Il Minotauro                       5   2
+Il Mulino                         29  24
+Il Pirata                          4   1
+Il mare libreria internazional     5   1
+Imray                              1   1
+Infinito                           3   1
+Istituto Idrografico della Mar     5   1
+Italic                             2   2
+Italica edizioni                   2   2
+Iter                              83  17
+Itinera progetti                   3   2
+Jaca Book                         19   1
+Jonglez                           12   3
+Kompass-Euroservizi              352 243
+Konemann                          33   4
+L'Airone Editrice                  6   6
+L'Epos                             2   1
+L'Escursionista                   72   1
+L'Espresso                         9   2
+L'Inchiostroblu                   34   4
+L'arciere                         12   3
+L'arcobaleno                       1   1
+LAC                               12   9
+LEG                               10   4
+LET                                1   1
+LEV                                1   1
+LT edizioni ( Giachetti )          1   1
+La Cuba                            1   1
+La Repubblica                      7   6
+La fotometalgrafica emiliana       1   1
+La grafica                         2   1
+La nave di Teseo                   1   1
+La piccola                         1   1
+Lampi di stampa  (Salvato)         1   1
+Lapis e Palombi & Partners         4   1
+Larus                              4   2
+Laser edizioni                     1   1
+Laterza                           30  12
+Le Lettere                        16   3
+Le Meraviglie                      3   3
+Le mani                            7   4
+Legenda  (Guiducci )              16   1
+Leonardo international             5   1
+Longanesi & C.                    38   4
+Lozzi e Rossi                     11   1
+Lyasis                            12   5
+MEB                                5   3
+Macchione editore                 47  12
+Macro Edizioni                     1   1
+Magenes Editoriale               129  32
+Maggioli editore                   3   2
+Magnamare                         18   5
+Malatempora                        1   1
+Malcor ( Negroni )                 1   1
+Manfrini                           6   3
+Mare verticale                    10   5
+Mariotti                           1   1
+Massimiliano Boni Editore          1   1
+Mattioli                          31   5
+Mediterranee                      34   6
+Medusa                             4   1
+Merrell publisher                  1   1
+Michelin (Baraldi 3318790774 )   270 189
+Minerva                            8   2
+Minerva edizioni                  28   2
+Mir edizioni                       2   1
+Modena-Aedes Muratoriana           1   1
+Modern languages                  11   3
+Mondadori                        201  49
+MondoGis                           1   1
+Monti                             15   1
+Morellini                         56  31
+Mountain Promotion                 4   2
+Multigraphic                       5   1
+Mursia                           507  21
+Museo Nazionale della Montagna     1   1
+Muzzio editore                    10   1
+My Life                            2   1
+NED                                3   1
+Nardini Editore                    7   2
+National Geographic               44   9
+Natura avventura edizioni          3   2
+Nelles                            81  42
+Neri Pozza                        45   7
+New Holland                        3   1
+Newton & Compton Editori         138  35
+Nistri Lischi                      2   1
+Nordpress                        117  40
+Novecento                          2   1
+Nueter                             5   1
+Nuova Guaraldi Editrice            1   1
+Nuovadimensione                    2   1
+Nuovi Sentieri                    85  13
+Nutrimenti                        72  23
+O barra O                          7   3
+Octavo                             6   1
+Odos                               8   5
+Odoya                             26   6
+Orione                             3   1
+Oscar Mondadori                   16   6
+Pacini                            38   9
+Palombi Editori                   21   8
+Pan                                1   1
+Panini                             8   5
+Panorama                          71   2
+Parkstone                          1   1
+Parole di cotone edizioni - Gu     1   1
+Passigli  Editori                  6   2
+Pendragon                         62  22
+Periplo                            4   2
+Piemme                            24   4
+Plan edizioni                      2   1
+Polaris                          100  21
+Ponte alle Grazie  ( Gianluca     24   4
+Pontegobbo                         2   2
+Portoria Editrice                  2   2
+Priuli Verlucca                  107  26
+Provincia di Modena                2   2
+Punto Marte                        2   1
+Quodlibet                         17   5
+R.E.R.                             9   2
+Raetia                             5   1
+Raffaello Cortina editore          8   4
+Regione  Emilia e  Romagna         8   2
+Reise                             45  34
+Res Gestae                         1   1
+Reverdito                          1   1
+Ripostes                           1   1
+Rizzoli                           41   9
+Rizzoli libri illustrati           4   1
+Robin                              7   1
+Rocciaviva                         7   1
+Rogiosi                            2   2
+Rossato                           19   2
+Rother                            25  10
+Rubbettino                        15   6
+SELCA                              9   4
+SER                                1   1
+SER Editrice Ricerche             41   1
+Sagep                             16   8
+San Paolo                         21   1
+Sassi                             20  11
+Saturnia                           1   1
+Scala                              5   3
+Scriba                             1   1
+Scubatour                          1   1
+Selezione dal Reader's Digest      2   1
+Sellerio                           8   3
+Sidarta Cierre                     6   3
+Sigem                              7   1
+Simple Edizioni                    1   1
+Società editrice Il Ponte Vecc     2   2
+Società stampa sportiva            1   1
+Soletti editore                    1   1
+Sonzogno                          10   2
+Sperling & Kupfer                 18   5
+Stampa Alternativa                13   2
+Studio Faro                        6   4
+Studio cartografico Italiano -     9   5
+Stupor Mundi                       1   1
+TCI-CAI                           55  13
+TEA ( Cocchi )                    86  19
+Tabacco-Euroservizi               77  68
+Tamari-Euroservizi               152 103
+Tappeiner                         55   8
+Taschen                            7   2
+TeNeues ( Marinoni )              15   3
+Techne editore                     2   1
+Techno Press                      14   2
+Tecniche Nuove ( Aless. Sani 3    30   1
+Terre di mezzo edizioni (Giach    63  34
+Todaro Editore                     2   1
+Top Canyon                         1   1
+Touring Club Italiano            631  19
+Transeuropa                        1   1
+Tropea                             3   1
+Ulysse                             5   1
+Vallardi                          91  28
+Vallardi viaggi                   12   1
+Vallardi viaggi (De Gregorio )    87   1
+Vallecchi                         17   2
+Valtrend                           1   1
+Vel                                3   2
+Verdechiaro                        2   1
+Versante Sud                     160  18
+Victory project                    1   1
+Vivalda                          117   7
+Vividolomiti                      22   2
+Voland                             5   1
+White Star                       241  47
+Xenia                              4   1
+Zandonai                           3   1
+Zanetti                           60  44
+Zanichelli                        40   1
+Zeta Beta                          9   2
