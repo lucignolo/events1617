@@ -1,4 +1,44 @@
-<h1>Searches#index</h1>
-<p>Find me in app/views/searches/index.html.erb</p>
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
 
-<%= link_to 'Nuova Search', new_search_path %>
+<h1>Archivio delle ricerche già eseguite</h1>
+Prova distance_of_time_in_words da Ruby, p.311
+<p> <%= distance_of_time_in_words(Time.now, Time.now+33, include_seconds: true) %> </p>
+
+<% cache ['ricerche', Search.latest] do %>
+  <% @searches.each do |search| %>
+    <% cache ['entry', search] do %>
+      <div class="entry">
+        <h3>termine: <%= search.termine %></h3>
+        <h3>tabella: <%= search.tabella %></h3>
+        <h3><%= distance_of_time_in_words(search.updated_at, Time.now) %> ago </h3>
+
+        	<div class="price_line">
+          		<span class="price"><%= number_to_currency(123.99) %></span>
+          		<%= button_to 'Esegui questa ricerca', searches_path(search_id: search), remote: true %>
+        	</div>
+      </div>
+    <% end %>
+  <% end %>
+<% end %>
+
+
+
+<h1>VECCHIO, ma UTILE! Searches#index</h1>
+<p>Find me in app/views/searches/index.html.erb</p>
+<p>NUOVA RICERCA:><%= link_to "da eseguire ex-novo", new_search_path() %>
+
+PROVA tag per forms (11-15/05/2018, altri esempi)
+<%= form_tag( { controller: "searches", action: "index" }, method: "get", class: "nifty_form") do %>
+  <%= label_tag(:nome, "Ricerca nel campo:") %>
+  <%= text_field_tag(:nome) %>
+  <br>
+  <%= check_box_tag(:pet_dog) %>
+  <%= label_tag(:pet_dog, "I own a dog") %>
+  <%= check_box_tag(:pet_cat) %>
+  <%= label_tag(:pet_cat, "I own a cat") %>
+
+  <%= submit_tag("RICERCA2") %>
+<% end %>
+

@@ -17,8 +17,16 @@ class SearchesController < ApplicationController
 	end
 
 	def show
+		# provo ad accedere al Publisher model
+		@publisherTotali = "#{Publisher.all.count}"
+
 		@search = Search.find(params[:id])
 		@ricerca = "likeat"+@search.termine
+
+		# eseguiamo un filtraggio preliminare e calcoliamo il numero di elementi che lo soddisfano
+		mioPara2 = "%"+@search.termine+"%"
+		trovati = Publisher.likeat("#{mioPara2}")
+		@numeroFiltrati = "#{trovati.count}"
 	end	
 
 private

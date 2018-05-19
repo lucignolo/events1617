@@ -1,6 +1,6 @@
-# events1617
-Situazione di C:\...\MieRicercheNew al 25/11/2017
-Concluso l'inventario 2016. iniziati lavori per analisi outrunner2.txt.Già eseguiti i lavori per supplemento Inventario on indici Editori Inclusi ed Esclusi
+# events1718
+Situazione di C:\...\MieRicercheNew al 18/05/2018
+Ripresa preparazione inventario 2017. Commit da master per preliminari.
 
 
-Aggiornato al 25/11/2017, poi al 29/04/2018 (per variazione a Gemfile.lock come da segnalazione GitHub)
+Aggiornato al 18/05/2018.
